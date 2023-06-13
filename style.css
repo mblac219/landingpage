@@ -196,3 +196,16 @@ img {
   background-color: var(--hover-blue);
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-gray);
+  height: 75px;
+}
+#footer {
+  color: var(--off-white);
+  font-family: Roboto;
+  font-size: 18px;
+}
