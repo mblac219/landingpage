@@ -45,3 +45,44 @@ a:hover {
   font-size: 24px;
   font-family: "Tilt Prism", cursive;
 }
+#container-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-gray);
+  padding: 100px 0;
+}
+#bold {
+  font-family: "Tilt Prism", cursive;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  /* padding-top: 10px; */
+  color: var(--off-white);
+}
+.thin {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+  padding-top: 10px;
+  color: var(--off-white);
+}
+#menu {
+  background-color: var(--blue);
+  color: #f9faf8;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border-style: none;
+}
+#intro {
+  width: 500px;
+  height: 300px;
+  padding-right: 10px;
+}
+img {
+  width: 500px;
+  height: 300px;
+}
