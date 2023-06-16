@@ -5,7 +5,7 @@
   --light-gray: #e5e7eb;
   --off-white: #f9faf8;
 }
-body {
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
