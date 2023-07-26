@@ -1,23 +1,26 @@
+/* color palette variable */
 :root {
-  --dark-gray: #1f2937;
+  --dark-blue: #1f2937;
   --blue: #3882f6;
   --hover-blue: #2c64bd;
   --light-gray: #e5e7eb;
   --off-white: #f9faf8;
 }
+/* box-sizing */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-
+/* sets color for header */
 #header {
-  background-color: var(--dark-gray);
+  background-color: var(--dark-blue);
 }
-
+/* remove bullet points from li */
 li {
   list-style: none;
 }
+/* font styling for nav */
 a {
   font-family: Roboto;
   font-size: 18px;
@@ -25,41 +28,54 @@ a {
   color: var(--light-gray);
   margin-left: 20px;
 }
+/* hover color for nav */
 a:hover {
   color: var(--hover-blue);
 }
+/* spacing for nav-container */
 #nav-container {
-  width: 1010px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: auto;
   padding-top: 10px;
 }
+/* spacing for nav menu */
 #nav {
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding-right: 20px;
 }
+/* logo styling */
 #logo {
   color: var(--off-white);
   font-size: 24px;
   font-family: "Tilt Prism", cursive;
+  padding-left: 20px;
 }
+/* centering type and main photo */
 #container-one {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-gray);
+  background-color: var(--dark-blue);
   padding: 100px 0;
 }
+/* sets container's width for type and main photo */
+#intro {
+  width: 500px;
+  height: 300px;
+  padding-right: 10px;
+}
+/* styling for main type */
 #bold {
   font-family: "Tilt Prism", cursive;
   font-size: 48px;
   font-weight: bold;
   margin: 0;
-  /* padding-top: 10px; */
   color: var(--off-white);
 }
+/* styling for main type */
 .thin {
   font-family: Roboto;
   font-size: 18px;
@@ -69,6 +85,7 @@ a:hover {
   padding-top: 10px;
   color: var(--off-white);
 }
+/* "See our menu" button styling */
 #menu {
   background-color: var(--blue);
   color: #f9faf8;
@@ -77,23 +94,22 @@ a:hover {
   border-radius: 8px;
   border-style: none;
 }
+/* hover styling for menu button */
 #menu:hover {
   background-color: var(--hover-blue);
   cursor: pointer;
 }
-#intro {
-  width: 500px;
-  height: 300px;
-  padding-right: 10px;
-}
+/* sizing for main photo */
 img {
   width: 500px;
   height: 300px;
 }
+/* container-two bkgd-color/height */
 #container-two {
   background-color: var(--off-white);
   height: 500px;
 }
+/* styling for title  */
 #title {
   font-family: Roboto;
   font-size: 36px;
@@ -101,6 +117,7 @@ img {
   text-align: center;
   padding: 40px 0px;
 }
+/* styling/spacing for container */
 #dessert-container {
   display: flex;
   justify-content: center;
@@ -110,7 +127,7 @@ img {
   margin: auto;
   gap: 30px;
 }
-
+/* styling for dessert image */
 #dessert-one {
   width: 200px;
   height: 200px;
@@ -118,6 +135,7 @@ img {
   border-radius: 8px;
   object-fit: cover;
 }
+/* styling for dessert image */
 #dessert-two {
   width: 200px;
   height: 200px;
@@ -125,6 +143,7 @@ img {
   border-radius: 8px;
   object-fit: cover;
 }
+/* styling for dessert image */
 #dessert-three {
   width: 200px;
   height: 200px;
@@ -132,6 +151,7 @@ img {
   border-radius: 8px;
   object-fit: cover;
 }
+/* styling for dessert image */
 #dessert-four {
   width: 200px;
   height: 200px;
@@ -139,6 +159,7 @@ img {
   border-radius: 8px;
   object-fit: cover;
 }
+/* styling for dessert captions */
 #caption-one,
 #caption-two,
 #caption-three,
@@ -150,11 +171,13 @@ img {
   font-weight: 100;
   text-align: center;
 }
+/* review-container flex and bkgd-color */
 #review-container {
   display: flex;
   justify-content: center;
   background-color: var(--light-gray);
 }
+/* review font styling */
 #review {
   font-family: Roboto;
   font-size: 36px;
@@ -163,17 +186,19 @@ img {
   width: 900px;
   padding: 25px 0;
 }
+/* float for customer name */
 #customer {
   float: right;
 }
-#signup-container {
+/* sign-up-container flex, height and bkgd-color */
+#sign-up-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--off-white);
   height: 300px;
 }
-
+/* styling for call-to-action */
 #call-action {
   display: flex;
   justify-content: center;
@@ -185,10 +210,12 @@ img {
   background-color: var(--blue);
   color: #f9faf8;
 }
+/* font styling inside call-to-action */
 #upcoming {
   font-family: Roboto;
   font-size: 18px;
 }
+/* sign-up button */
 #sign-up {
   background-color: var(--blue);
   color: #f9faf8;
@@ -196,18 +223,20 @@ img {
   border-radius: 8px;
   border: 1px solid var(--off-white);
 }
+/* sign-up button hover state */
 #sign-up:hover {
   background-color: var(--hover-blue);
   cursor: pointer;
 }
-
+/* footer bkgd-color*/
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-gray);
+  background-color: var(--dark-blue);
   height: 75px;
 }
+/* footer font color */
 #footer {
   color: var(--off-white);
   font-family: Roboto;
